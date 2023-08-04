@@ -8,6 +8,7 @@ import {siteConfig} from '../siteConfig';
 const MyDocument = () => {
   return (
     <Html lang={siteConfig.languageCode}>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
       <Head />
       <body className="font-text font-medium antialiased text-lg bg-wash dark:bg-wash-dark text-secondary dark:text-secondary-dark leading-base">
         <script
