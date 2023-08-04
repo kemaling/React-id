@@ -122,10 +122,7 @@ export const Seo = withRouter(
           key="twitter:image"
           content={`https://${siteDomain}${image}`}
         />
-        <meta
-          name="google-site-verification"
-          content="sIlAGs48RulR4DdP95YSWNKZIEtCqQmRjzn-Zq-CcD0"
-        />
+    
         {searchOrder != null && (
           <meta name="algolia-search-order" content={'' + searchOrder} />
         )}
