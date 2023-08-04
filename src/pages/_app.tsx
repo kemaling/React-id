@@ -6,7 +6,7 @@ import {useEffect} from 'react';
 import {AppProps} from 'next/app';
 import {useRouter} from 'next/router';
 import {ga} from '../utils/analytics';
-import AdSense from 'react-adsense';
+
 import '@docsearch/css';
 import '../styles/algolia.css';
 import '../styles/index.css';
