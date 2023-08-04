@@ -71,6 +71,23 @@ src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pu
         />
         <Main />
         <NextScript />
+<div className="col-md-8">
+    <h3 className="pb-4 mb-4 fst-italic border-bottom">
+       Adsense ads
+    </h3>
+   <ins
+       class="adsbygoogle"
+       style={{ display: "block" }}
+       data-ad-client="ca-pub-6389784149267865"
+       data-ad-slot="6486641123"
+       data-ad-format="auto"
+        data-full-width-responsive="true"
+    > </ins>
+      <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});    
+     </script>
+</div>
+
       </body>
     </Html>
   );
