@@ -11,6 +11,13 @@ const MyDocument = () => {
       
       <Head />
       <body className="font-text font-medium antialiased text-lg bg-wash dark:bg-wash-dark text-secondary dark:text-secondary-dark leading-base">
+
+<Script id="Adsense-id" async
+    onError={(e) => { console.error("Script failed to load", e);}}
+    strategy="afterInteractive"
+src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6389784149267865"
+    crossorigin="anonymous"
+  />
         <script
           dangerouslySetInnerHTML={{
             __html: `
