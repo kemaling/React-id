@@ -7,6 +7,8 @@ import {AppProps} from 'next/app';
 import {useRouter} from 'next/router';
 import {ga} from '../utils/analytics';
 
+import { GoogleAdSense } from 'nextjs-google-adsense';
+
 import '@docsearch/css';
 import '../styles/algolia.css';
 import '../styles/index.css';
@@ -52,6 +54,6 @@ export default function MyApp({Component, pageProps}: AppProps) {
       router.events.off('routeChangeComplete', handleRouteChange);
     };
   }, [router.events]);
-
+<GoogleAdSense publisherId="pub-6389784149267865" />
   return <Component {...pageProps} />;
 }
